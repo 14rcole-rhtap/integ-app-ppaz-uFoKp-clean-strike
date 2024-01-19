@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hacbs-test-project-ichj
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/rycole-appstudio/integration1-pjty-tenant/integ-app-ppaz/hacbs-test-project-ichj@sha256:cb6f46ae7f66e3b71a318de0ba3a89fc3eb6c6719e9dc7c541c142dce8d41aae
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
