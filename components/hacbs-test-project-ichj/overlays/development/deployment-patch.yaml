@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hacbs-test-project-ichj
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rycole-appstudio/integration1-pjty-tenant/integ-app-ppaz/hacbs-test-project-ichj@sha256:cb6f46ae7f66e3b71a318de0ba3a89fc3eb6c6719e9dc7c541c142dce8d41aae
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
